@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>Resume</title>
+	
+	<!-- Meta Tags -->
+	<meta charset="UTF-8"/>
+	<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
+	<link href="./images/favicon.png" rel="icon" type="icon/png"/> 
+	
+	<!-- Google Fonts -->	
+	<link href="https://fonts.googleapis.com" rel="preconnect"/>
+	<link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+	
+	<!-- Bootstrap Icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+	
+	<!-- FontAwesome JS -->
+    <script defer src="./js/fontawesome.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link href="./css/slider.css" rel="stylesheet"/>
+
+	<!-- Main Theme CSS -->  
+	<link href="./css/theme.css" id="theme-style" rel="stylesheet"/>
+
+	<!-- Custom CSS -->
+	<link href="./css/custom_styles.css" rel="stylesheet"/>
+
+</head> 
+
+
+<body>
+	
+	<div class="container-fluid">
+
+			<div class="side-panel position-relative">
+				 
+				<nav class="navbar">
+			        <div aria-labelledby="offcanvasNavbarLabel" class="offcanvas offcanvas-start show d-flex" id="offcanvasNavbar" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1">
+			            <div class="offcanvas-body d-flex align-items-center ">
+			                <ul class="main-nav navbar-nav text-center">
+				                
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="index.html"><span class="icon-holder"><i class="fa-solid fa-circle-user"></i></span><span class="nav-text">Home</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="projects.html"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span><span class="nav-text">Projects</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="blog-home.html"><span class="icon-holder"><i class="fa-solid fa-pen-fancy"></i></span><span class="nav-text">Blog</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active d-flex flex-column" href="resume.html"><span class="icon-holder"><i class="fa-solid fa-file-lines"></i></span><span class="nav-text">Resume</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="contact.html"><span class="icon-holder"><i class="fa-solid fa-comment-dots"></i></span><span class="nav-text">Contact</a>
+								</li>
+								<li class="nav-item nav-item-close">
+				                    <button aria-label="Close" class="btn-close" data-bs-dismiss="offcanvas" type="button"><i class="bi bi-x"></i></button>
+				                </li>
+							</ul>
+			            </div>
+			        </div>
+				  
+				</nav>
+			</div><!--//side-panel-->
+			
+			<div class="main-content-wrapper">
+				<div class="container-fluid">
+					<div class="top-bar text-center position-relative">
+						<div class="top-bar-inner">
+							
+							<a class="menu-toggler" data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar">
+								 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+								  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+								</svg>
+					        </a>
+					        
+					        <div class="mode-toggle text-center">
+							    
+							    <input class="toggle" id="darkmode" type="checkbox">
+							    <label class="toggle-btn mx-auto mb-0" for="darkmode">
+							        <span class="day-icon toggle-icon"> <i class="bi bi-sun-fill"></i></span>
+							        <span class="night-icon toggle-icon"><i class="bi bi-moon-fill"></i></span>
+							        
+							    </label>
+							    
+							</div><!--//mode-toggle-->
+							
+							<a class="btn btn-primary top-bar-cta" href="contact.html">Hire Me</a>
+					
+							<ul class="social-list list-inline mx-auto d-none d-lg-block">
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://github.com/arifaisal123" target="_blank"><i class="fa-brands fa-github fa-fw"></i></a></li>
+								
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://www.linkedin.com/in/arifaisal123" target="_blank"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+								
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://stackoverflow.com/users/19773473/arif-faisal" target="_blank"><i class="fa-brands fa-stack-overflow fa-fw"></i></a></li>
+
+								<li class="list-inline-item me-0 me-md-1 me-lg-2 leetcode_special"><a href="https://leetcode.com/arifaisal123" target="_blank"><svg class="svg-inline--fa fa-fw" width="18px" height="18px" style="color: rgb(165, 179, 206);" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LeetCode</title><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" fill="#a5b3ce"></path></svg></a></li>
+
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://www.hackerrank.com/arifaisal123" target="_blank"><i class="fab fa-hackerrank fa-fw"></i></a></li>								
+
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="mailto:arifaisal123@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-fw"></i></a></li>
+								
+							</ul><!--//social-list-->
+							
+						</div><!--//top-bar-inner-->
+						
+					</div><!--//top-bar-->
+			
+					<div class="resume-wrapper mx-auto rounded-2">
+						<div class="resume-header px-4 px-lg-5">
+							<div class="resume-profile-holder text-center">
+								<a href="./index.html"><img class="resume-profile-pic rounded-circle" src="./images/profile_pic.png" alt="image"></a>
+								
+								<h2 class="resume-name text-uppercase">Arif Faisal </h2>
+								<div class="resume-role-title text-uppercase">Full Stack Developer</div>
+								<div class="resume-contact mt-4">
+									<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
+										<li class="list-inline-item me-md-3 me-lg-5"><i class="resume-contact-icon bi bi-telephone-inbound me-2"></i> +88-01717437972</li>
+										<li class="list-inline-item me-md-3 me-lg-5"><i class="resume-contact-icon bi bi-envelope me-2"></i> <a class="mail_arif" href="mailto:arif.iba34@gmail.com">arif.iba34@gmail.com</a></li>
+										<li class="list-inline-item me-lg-5"><i class="resume-contact-icon bi bi-globe me-2"></i> <a class="github_profile" href="https://www.arifaisal123.github.io">arifaisal123.github.io</a></li>
+									</ul>
+								</div><!--//resume-contact-->
+							</div><!--//profile-holder-->
+						</div><!--//resume-header-->
+						
+						<div class="resume-body p-4 p-lg-5">
+							<div class="row">
+								<div class="col-main col-12 col-lg-8 pe-lg-4">
+									<section class="resume-summary-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3"><i class="resume-section-heading-icon bi bi-person me-2"></i>About Me</h3>
+										<div class="resume-summary-desc">
+											I am a Full Stack Developer based in Dhaka, Bangladesh. I have experiences in technologies like Python, C, Flask, SQL, HTML, CSS, Javascript etc. Currently, I am pursuing <a href="https://github.com/ossu/computer-science">OSSU curriculum</a> for my computer science education. I have completed my MBA in Marketing, and BBA in Finance from IBA, University of Dhaka.
+										</div>
+									</section><!--//resume-section-->
+									
+									<hr>
+									
+									<section class="resume-experience-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Work Experience</h3>
+										<div class="resume-timeline position-relative">
+										    <article class="resume-timeline-item position-relative pb-5">
+											    
+											    <div class="resume-timeline-item-header mb-2">
+												    
+												    <div class="resume-position-meta d-flex justify-content-between mb-1">
+													    <div class="resume-position-time">2023 - Present</div>
+													    <div class="resume-company-name">Freelance</div>
+												    </div>
+											        <h3 class="resume-position-title mb-1">Full Stack Developer</h3>
+
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+												 
+												   
+												    <ul class="resume-timeline-list">
+													    <li>Develop and maintain web applications using front-end and back-end technologies such as HTML, CSS, and JavaScript. </li>
+													    <li>Design and implement user interfaces that are intuitive, visually appealing, and responsive, ensuring a seamless user experience across multiple devices and platforms. </li>
+													    
+													    <li>Write and maintain clean, well-documented, and scalable code using best practices and modern development tools and frameworks.</li>
+												    </ul>
+												    
+											    </div><!--//resume-timeline-item-desc-->
+		
+										    </article><!--//resume-timeline-item-->
+								    
+										    <article class="resume-timeline-item position-relative pb-5">
+
+											    <div class="resume-timeline-item-header mb-2">
+												    
+												    <div class="resume-position-meta d-flex justify-content-between mb-1">
+													    <div class="resume-position-time">2020 - 2022</div>
+													    <div class="resume-company-name">AML (Coca-Cola)</div>
+												    </div>
+											        <h3 class="resume-position-title mb-1">HR Business Partner</h3>
+
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+												    <ul class="resume-timeline-list">
+													    
+													    <li>Partnering with the Senior Leadership Team (SLT) to strategize and facilitate a performance driven culture.</li>
+													    <li>Designing Strategic Manpower Planning considering organizational requirements to enhance business efficiency.</li>
+													    <li>Leading the HR Operations, and Talent Management for Beverage Unit (Coca-Cola), IGLOO Sugar Unit, and Bran Oil Unit with the scope of approximately 1,200 manpower strength.</li>
+												    </ul>
+												    
+											    </div><!--//resume-timeline-item-desc-->
+		
+										    </article><!--//resume-timeline-item-->
+										    <article class="resume-timeline-item position-relative pb-5">
+											    
+											    <div class="resume-timeline-item-header mb-2">
+												    
+												    <div class="resume-position-meta d-flex justify-content-between mb-1">
+													    <div class="resume-position-time">2018 - 2019</div>
+													    <div class="resume-company-name">bti</div>
+												    </div>
+											        <h3 class="resume-position-title mb-1">Management Associate</h3>
+
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+												 
+												   
+												    <ul class="resume-timeline-list">
+													    <li>Conducting market research, and analyzing the feasibility of a new business. </li>
+													    <li>Developing integrated marketing communication plans and strategy. </li>													    
+													    <li>Leading the full operation of the new SBU.</li>
+													    <li>Generating, and converting the leads into sales for the business.</li>
+												    </ul>
+												    
+											    </div><!--//resume-timeline-item-desc-->
+		
+										    </article><!--//resume-timeline-item-->
+
+										    <article class="resume-timeline-item position-relative">
+
+											    <div class="resume-timeline-item-header mb-2">
+												    
+												    <div class="resume-position-meta d-flex justify-content-between mb-1">
+													    <div class="resume-position-time">2016</div>
+													    <div class="resume-company-name">Rancon</div>
+												    </div>
+											        <h3 class="resume-position-title mb-1">HR Analyst</h3>
+
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+												    <ul class="resume-timeline-list">
+													    
+													    <li>Assisting in regular HR Operations.</li>
+													    <li>Coordinating Recruitment and Selection activities.</li>
+													    <li>Researching, and proposing HR Metrics for measuring operational efficiency. </li>
+													   
+												    </ul>
+												    
+											    </div><!--//resume-timeline-item-desc-->
+		
+										    </article><!--//resume-timeline-item-->
+
+
+							            </div><!--//resume-timeline-->
+									</section><!--//resume-experience-section-->
+								</div><!--//col-8-->
+								<div class="col-12 col-lg-4 ps-lg-4">
+									
+									<section class="resume-skills-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-gear me-2"></i>Tech Stack</h3>
+										
+										<ul class="list-unstyled">
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Python</div>
+											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+											  <div class="progress-bar resume-progress-bar" style="width: 98%"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Javascript</div>
+								            <div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+											  <div class="progress-bar resume-progress-bar" style="width: 95%"></div>
+											</div>
+									        
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">HTML, CSS</div>
+									        <div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+											  <div class="progress-bar resume-progress-bar" style="width: 92%"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">SQL</div>
+									        <div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+											  <div class="progress-bar resume-progress-bar" style="width: 86%"></div>
+											</div>
+								        </li>
+
+							        </ul>
+										
+									</section><!--//resume-section-->
+									
+									<hr>
+									
+									<section class="resume-skills-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Soft Skills</h3>
+										<ul class="list-inline">
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Leadership</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Project Management</span></li>
+								            
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Interpersonal</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Public Speaking</span></li>
+								            
+								            				           
+							            </ul>
+									</section><!--//resume-section-->
+									
+									<hr>
+									
+									<section class="resume-projects-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-code-slash me-2"></i>Projects</h3>
+										<div class="item">
+											<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="https://arifaisal123.github.io/travello_parallax/">Travello</a></h4>
+											<div class="item-desc">
+												A responsive travel app landing page with parallax effect.
+											</div>
+										</div><!--//item-->
+										<div class="item">
+											<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="https://arifaisal123.github.io/Peek-a-Boo/">Peek-a-Boo</a></h4>
+											<div class="item-desc">
+												Peek-a-Boo is a simple click-based hide and seek game.
+											</div>
+										</div><!--//item-->
+										<div class="item">
+											<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="https://arifaisal123.github.io/fontology/">Fontology</a></h4>
+											<div class="item-desc">
+												A web app that lets you stylize random texts with different fonts.
+											</div>
+										</div><!--//item-->
+										<div class="item">
+											<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="https://arifaisal123.github.io/web_projects/Restaurant%20Website/index.html">Restaurant Website</a></h4>
+											<div class="item-desc">
+												A simple restaurant website built with HTML, CSS, and Javascript.
+											</div>
+										</div><!--//item-->
+									
+											
+									</section>
+									
+									<hr>
+									
+									<section class="resume-educate-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
+										<ul class="list-unstyled">
+										    <li class="mb-2">
+										        <div class="resume-degree font-weight-bold">Computer Science</div>
+										        <a href="https://github.com/ossu/computer-science"><div class="resume-degree-org">OSSU</div></a>
+										        <div class="resume-degree-time">2022 - Current</div>
+										    </li>
+										    <li>
+										        <div class="resume-degree font-weight-bold">MBA (Marketing)</div>
+										        <div class="resume-degree-org">IBA, University of Dhaka</div>
+										        <div class="resume-degree-time">2017 - 2019</div>
+										    </li>
+										    <li>
+										        <div class="resume-degree font-weight-bold">BBA (Finance)</div>
+										        <div class="resume-degree-org">IBA, University of Dhaka</div>
+										        <div class="resume-degree-time">2012 - 2016</div>
+										    </li>
+									    </ul>
+									</section><!--//resume-section-->
+									
+									<hr>
+									
+									<section class="resume-lang-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
+										 <ul class="list-unstyled resume-lang-list">
+										    <li class="mb-2">
+										        <div class="resume-lang-name">Bangla</div>
+										        <div class="resume-level-indicator row gx-0 flex-nowrap">
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-half"></span></div>
+										        </div><!--//resume-level-indicator-->
+										    </li>
+										     <li class="mb-2">
+										        <div class="resume-lang-name">English</div>
+										        <div class="resume-level-indicator row gx-0 flex-nowrap">
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-full"></span></div>
+											        <div class="col"><span class="item item-half"></span></div>
+											        <div class="col"><span class="item"></span></div>
+										        </div><!--//resume-level-indicator-->
+										    </li>
+										</ul>
+									</section>
+									
+									
+									
+								</div><!--//col-side-->
+							</div><!--//row-->
+					    </div><!--//resume-body-->
+				    </div><!--//resume-wrapper-->
+				</div><!--//container-fluid-->
+			</div><!--//main-content-wrapper-->
+		
+		
+		</div><!--//row-->
+	
+	</div><!--//container-->
+	
+	<footer class="footer text-center py-5">
+		<small class="copyright">Copyright &copy; 2023, Arif Faisal. All Rights Reserved.</small>
+	</footer>
+	
+	<!-- Javascript -->
+	<script src="./js/popper.min.js"></script> 
+	<script src="./js/bootstrap.min.js"></script>
+	
+	<!-- Page Specific JS -->
+	<script src="./js/slider.js"></script> 
+	<script src="./js/slider-custom.js"></script> 
+	
+	<!-- Dark/Light Mode Toggle  -->
+	<script src="./js/js-cookie.min.js"></script>
+	<script src="./js/mode-toggle.js"></script>   
+
+	<!-- Custom JS -->
+	<script src="./js/custom_js.js"></script>
+
+	<!-- bootstrap 5.02 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	
+
+</body>
+</html>

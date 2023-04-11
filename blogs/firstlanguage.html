@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>First Programming Language</title>
+	
+	<!-- Meta Tags -->
+	<meta charset="UTF-8"/>
+	<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>   
+	<link href="../images/favicon.png" rel="icon" type="icon/png"/> 
+	
+	<!-- Google Fonts -->	
+	<link href="https://fonts.googleapis.com" rel="preconnect"/>
+	<link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+	
+	<!-- Bootstrap Icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+	
+	<!-- FontAwesome JS -->
+    <script defer src="../js/fontawesome.js"></script>
+    
+    <!-- Plugin CSS -->
+    <link href="../css/slider.css" rel="stylesheet"/>
+
+	<!-- Main Theme CSS -->  
+	<link href="../css/theme.css" id="theme-style" rel="stylesheet"/>
+
+	<!-- Custom CSS -->
+	<link href="../css/custom_styles.css" rel="stylesheet"/>
+
+	<!-- Highlight CSS & JS--> 
+	<link rel="stylesheet" href="../css/github-dark.min.css">
+	<script src="../js/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
+
+</head> 
+
+
+<body>
+	<div class="container-fluid">
+			<div class="side-panel position-relative">
+				 
+				<nav class="navbar">
+			        <div aria-labelledby="offcanvasNavbarLabel" class="offcanvas offcanvas-start show d-flex" id="offcanvasNavbar" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1">
+			            <div class="offcanvas-body d-flex align-items-center ">
+			                <ul class="main-nav navbar-nav text-center">
+				                
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="../index.html"><span class="icon-holder"><i class="fa-solid fa-circle-user"></i></span><span class="nav-text">Home</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="../projects.html"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span><span class="nav-text">Projects</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="../blog-home.html"><span class="icon-holder"><i class="fa-solid fa-pen-fancy"></i></span><span class="nav-text">Blog</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="../resume.html"><span class="icon-holder"><i class="fa-solid fa-file-lines"></i></span><span class="nav-text">Resume</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link d-flex flex-column" href="../contact.html"><span class="icon-holder"><i class="fa-solid fa-comment-dots"></i></span><span class="nav-text">Contact</a>
+								</li>
+								<li class="nav-item nav-item-close">
+				                    <button aria-label="Close" class="btn-close" data-bs-dismiss="offcanvas" type="button"><i class="bi bi-x"></i></button>
+				                </li>
+							</ul>
+			            </div>
+			        </div>
+				  
+				</nav>
+			</div><!--//side-panel-->
+			
+			<div class="main-content-wrapper">
+				<div class="container-fluid">
+					<div class="top-bar text-center position-relative">
+						<div class="top-bar-inner">
+							
+							<a class="menu-toggler" data-bs-toggle="offcanvas" href="#offcanvasNavbar" role="button" aria-controls="offcanvasNavbar">
+								 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+								  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+								</svg>
+					        </a>
+					        
+					        <div class="mode-toggle text-center">
+							    
+							    <input class="toggle" id="darkmode" type="checkbox">
+							    <label class="toggle-btn mx-auto mb-0" for="darkmode">
+							        <span class="day-icon toggle-icon"> <i class="bi bi-sun-fill"></i></span>
+							        <span class="night-icon toggle-icon"><i class="bi bi-moon-fill"></i></span>
+							        
+							    </label>
+							    
+							</div><!--//mode-toggle-->
+							
+							<a class="btn btn-primary top-bar-cta" href="contact.html">Hire Me</a>
+					
+							<ul class="social-list list-inline mx-auto d-none d-lg-block">
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://github.com/arifaisal123" target="_blank"><i class="fa-brands fa-github fa-fw"></i></a></li>
+								
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://www.linkedin.com/in/arifaisal123" target="_blank"><i class="fa-brands fa-linkedin-in fa-fw"></i></a></li>
+								
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://stackoverflow.com/users/19773473/arif-faisal" target="_blank"><i class="fa-brands fa-stack-overflow fa-fw"></i></a></li>
+
+								<li class="list-inline-item me-0 me-md-1 me-lg-2 leetcode_special"><a href="https://leetcode.com/arifaisal123" target="_blank"><svg class="svg-inline--fa fa-fw" width="18px" height="18px" style="color: rgb(165, 179, 206);" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LeetCode</title><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" fill="#a5b3ce"></path></svg></a></li>
+
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="https://www.hackerrank.com/arifaisal123" target="_blank"><i class="fab fa-hackerrank fa-fw"></i></a></li>								
+
+								<li class="list-inline-item me-0 me-md-1 me-lg-2"><a href="mailto:arifaisal123@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-fw"></i></a></li>
+								
+							</ul><!--//social-list-->
+							
+						</div><!--//top-bar-inner-->
+						
+					</div><!--//top-bar-->
+					
+					<section class="blog-post-section section has-profile-image mx-auto">
+						<div class="profile-holder text-center">
+							<a href="../index.html"><img class="profile-pic rounded-circle" src="../images/profile_pic.png" alt="image"></a>
+						</div><!--//profile-holder-->
+						
+						<div class="blog-breadcrumb">
+		                    <a class="blog-home-link" href="../blog-home.html"><i class="bi bi-arrow-left"></i> Back To Blog Home</a>
+	                    </div>
+			                    
+						<div class="blog-entry">                 
+			                <article class="post">
+			                    <h2 class="post-title text-center py-2">Which Programming Language Should You Learn First</h2>
+			                    <div class="post-author text-center mb-3">By <a href="../index.html">Arif Faisal</a></div>
+			                    <div class="post-meta"> 
+		                            <ul class="meta-list list-inline d-flex justify-content-center">                                       
+		                                <li class="list-inline-item post-time">10 April, 2023</li>
+		                                <li class="list-inline-item post-length">10 min read</li>
+		
+		                            </ul><!--//meta-list-->        
+		                                   	
+			                    </div><!--post-meta-->
+		                        
+			                    <div class="post-content">
+			                        <p class="post-figure text-center">
+			                            <img class="img-fluid rounded" src="../images/blog_images/firstprogramminglanguage.jpg" alt="image">Image Credit: Pexels
+			                        </p><!--//post-figure-->
+			                        <p>It is often an intriguing experience for a new programmer to decide on which language to start first. I myself have gone through the painstaking research to come up with a better answer to this question. Nonetheless, while there may not be just one answer to this question, I will reflect my own journey regarding how it all began.</p>
+			                        
+			                        <figure class="blog-quote-holder p-4 p-lg-5 my-5 rounded">
+				                        <blockquote class="blockquote theme-custom-quote">
+				                            <p><i class="quote-icon fa-solid fa-quote-left d-none d-lg-inline-block"></i>Experience is the name everyone gives to their mistakes.</p>
+				                        </blockquote>   
+			                            <figcaption class="blockquote-footer">
+			                                <cite title="Source Title">Oscar Wilde</cite>
+										</figcaption>
+			                        </figure><!--//blog-quote-holder-->
+			
+			                        <p>I support others' view when they say that the choice of the first programming language to learn should depend on the individual goals and interests. Absolutely logical! However, as a beginner, it is often possible that you slow or stop your journey midway owing to the atrocious syntaxes you are bombarded with. After going through a lot of tutorial hell, I believe (at least for me) the right approach was to start with Python. Now, you may be curious, out of so many languages why I have handpicked python. Now before I answer that, let's go through some stats about Python.</p>             
+			                        
+		                            <ul class="post-list ps-5 py-3">
+										<li>Python is ranked as <strong class="text-highlight">the most popular programming language </strong>(TIOBE Index).</li>
+										<li>The language is widely used in <strong class="text-highlight">Data Science and Machine Learning</strong>.</li>
+										<li>Big Companies like <strong class="text-highlight">NASA, Google, Facebook, Youtube, Amazon</strong> use it.</li>								
+										<li>Python is considered a <strong class="text-highlight">beginner-friendly language</strong> because of its easy-to-learn syntax.</li>
+									</ul>
+									
+									<h3 class="mt-5 mb-3">Beginner-Friendly and Easy-to-Learn</h3>
+								    <p>Python is considered a beginner-friendly language. As a new programmer, you must understand the power of Computers and Programming Languages in general. Because of its easy-to-learn syntax, the language is often used in many academic courses, and teaching materials. Apart from that, you have a huge developers' community to get assistance from. Another common roadblock that you face in other languages is that you need to type too many line for the same output that you can do with fewer lines in Python.</p>
+								    <p>Let's look at how that translates into code. In the following examples, you will see how to print "Hello, World!" in different programming languages.</p>
+
+								    <strong>C Language</strong>
+								    <pre><code class="language-c">#include &lt;stdio.h&gt;
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+</code></pre>
+<br>
+									<strong>C# Language</strong>
+									<pre><code class="language-c#">using System;
+class Program {
+  static void Main(string[] args) {
+    Console.WriteLine("Hello, World!");
+  }
+}
+</code></pre>
+<br>
+  								<strong>C++ Language</strong>
+  								<pre><code class="language-cpp">#include &lt;iostream&gt;
+int main() {
+  std::cout &lt;&lt; "Hello, World!\n";
+  return 0;
+}
+</code></pre>
+<br>
+							<strong>Java Language</strong>
+			                <pre><code class="language-java">public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World!");
+  }
+}
+</code></pre>        
+<br>
+							<strong>Javascript Language</strong>
+<pre><code class="language-javascript">console.log("Hello, World!");
+</code></pre>
+<br>
+							<strong>Python Language</strong>
+<pre><code class="language-python">print("Hello, World!")
+</code></pre>
+<br>
+							<p>So you can see from these examples that some languages are syntactically complex for beginners.</p>
+							<p>As a beginner, you need to understand the power of programming, and what you can achieve with it. Python is a good starting point in such regard. As you develop yourself as an experienced programmer, you will eventually bump into other powerful programming languages which are aligned with your goals.</p>
+			                    </div><!--//post-content-->
+			                    
+			                    <div class="post-tags py-5">
+									<ul class="list-inline">
+										<li class="list-inline-item"><strong>Tags:</strong></li>
+										<li class="list-inline-item"><span class="badge tag-badge">programming language</span></li>
+										<li class="list-inline-item"><span class="badge tag-badge">python</span></li>
+									</ul>
+								</div><!--//post-tags-->
+			                                 
+			                                                
+			            </div><!--//blog-entry-->
+					</section><!--//blog-post-section-->
+
+					
+				</div>
+			</div><!--//main-content-wrapper-->
+
+		</div><!--//row-->
+	
+	</div><!--//container-->
+	
+	<footer class="footer text-center py-5">
+		<small class="copyright">Copyright &copy; 2023, Arif Faisal. All Rights Reserved.</small>
+	</footer>
+	
+	<!-- Javascript -->
+	<script src="../js/popper.min.js"></script> 
+	<script src="../js/bootstrap.min.js"></script>
+	
+	<!-- Page Specific JS -->
+	<script src="../js/slider.js"></script> 
+	<script src="../js/slider-custom.js"></script> 
+	
+	<!-- Dark/Light Mode Toggle  -->
+	<script src="../js/js-cookie.min.js"></script>
+	<script src="../js/mode-toggle.js"></script>   
+
+	<!-- Custom JS -->
+	<script src="../js/custom_js.js"></script>
+
+	<!-- bootstrap 5.02 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
